@@ -9,8 +9,9 @@ Welcome to BiteBox, a comprehensive food delivery application designed to stream
 3. [Tech Stack](#tech-stack)
 4. [Installation](#installation)
 5. [Usage](#usage)
-6. [Contributors](#contributors)
-7. [Contact](#contact)
+6. [Demo](#demo)
+7. [Contributors](#contributors)
+8. [Contact](#contact)
 
 ## Overview
 
@@ -88,6 +89,10 @@ BiteBox is developed as a semester project for the Database Course. The project 
 
 - *Manage Accounts*: Add, edit, or delete customer, rider, and restaurant accounts.
 - *Handle Payments*: Process payments to riders.
+  
+## Demo
+
+Demo link: https://drive.google.com/file/d/1JJcv5TvDPEMuNLCWfRTF1QsJCZ7RDgLf/view?usp=sharing
 
 ## Contributors
 
