@@ -1,0 +1,71 @@
+﻿.container {
+    height: 82.2vh;
+}
+
+.grid {
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+    font-family: Arial, sans-serif;
+}
+
+.header {
+    padding: 10px;
+    font-weight: bold;
+    border-bottom: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    text-align: center;
+}
+
+.grid td {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    text-align: center;
+}
+
+.button-group {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button {
+    background-color: #fe8b00; 
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 5px 5px 10px 5px;
+}
+
+    .button:hover {
+        background-color: #fe8b00; 
+    }
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.page-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.header:first-child {
+    border-left: 1px solid #ccc;
+}
+
+.grid td:first-child {
+    border-left: 1px solid #ccc;
+}
+
+.admin-panel-title {
+    font-family: "Rosegarden Deluxe Serif 3", serif;
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 20px;
+}
