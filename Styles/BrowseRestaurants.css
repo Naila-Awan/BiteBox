@@ -1,0 +1,37 @@
+.container{
+    height: 79.3vh;
+}
+.custom-grid {
+    height: 100vh;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px 0 rgba(94, 78, 78, 0.2);
+    margin-left: 6rem;
+}
+
+    .custom-grid .HeaderStyle {
+        background-color: #fe8b00 !important;
+        color: #333 !important;
+    }
+
+    .custom-grid .RowStyle,
+    .custom-grid .FooterStyle,
+    .custom-grid .PagerStyle {
+        background-color: white !important;
+        color: #333 !important;
+    }
+
+.add-to-cart-button {
+    background-color: #fe8b00;
+    color: #333;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 0.5rem;
+    margin-left: 1rem;
+}
+
+    .add-to-cart-button:hover {
+        background-color: #e77b00;
+        color: white;
+    }
