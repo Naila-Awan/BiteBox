@@ -1,0 +1,54 @@
+.container{
+    height: 79.3vh;
+}
+.custom-grid {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px 0 rgba(94, 78, 78, 0.2);
+}
+
+    .custom-grid .HeaderStyle {
+        background-color: #fe8b00 !important;
+        color: #333 !important;
+    }
+
+    .custom-grid .RowStyle,
+    .custom-grid .FooterStyle,
+    .custom-grid .PagerStyle {
+        background-color: white !important;
+        color: #333 !important;
+    }
+
+.grid-button {
+    background-color: #fe8b00;
+    color: #333;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border-radius: 0.5rem;
+}
+
+    .grid-button:hover {
+        background-color: #e77b00;
+        color: white;
+    }
+.confirm-order-button {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border-radius: 0.5rem;
+    margin-bottom:20px; 
+}
+
+    .confirm-order-button:hover {
+        background-color: #fe8b00;
+        color: #333;
+    }
+.total-price-label {
+    font-size: 1rem;
+    font-family: Arial,sans-serif;
+}

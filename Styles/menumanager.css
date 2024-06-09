@@ -1,0 +1,37 @@
+﻿/* CSS for the edit button */
+#menuItems .editButton {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+    #menuItems .editButton:hover {
+        background-color: #45a049; /* Darker green */
+    }
+
+/* CSS for the delete button */
+#menuItems .deleteButton {
+    background-color: #f44336; /* Red */
+    border: none;
+    color: white;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+    #menuItems .deleteButton:hover {
+        background-color: #d32f2f; /* Darker red */
+    }

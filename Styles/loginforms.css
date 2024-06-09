@@ -1,0 +1,191 @@
+﻿:root {
+    --bg-color: #ffffff;
+    --text-color: #333;
+    --hover-color: #fe8b00;
+}
+
+.container {
+    display: flex;
+}
+
+.left-div, .right-div {
+    flex: 1;
+}
+
+.left-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    font-size: 125px;
+    margin-bottom: 0.2rem;
+    margin-top: 0.2rem;
+    font-family: 'RoseGarden Deluxe Serif 3';
+    font-weight: bold;
+}
+
+.left-div img {
+    width: 100%;
+    height: auto;
+    margin-left: -8rem;
+}
+
+.loginpage {
+    width: 350px;
+    margin: 3.5rem auto;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.2);
+    position: relative;
+    right: 6rem;
+    top: 6rem;
+}
+
+.signuppage {
+    width: 350px;
+    margin: 3.5rem auto;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.2);
+    position: relative;
+    right: 6rem;
+}
+
+.loginpage h2 {
+    color: #000;
+    font-size: 25px;
+    text-align: center;
+}
+
+.signuppage h2 {
+    color: #000;
+    font-size: 25px;
+    text-align: center;
+}
+
+.userSelection {
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.userSelection button {
+    background-color: #5e4e4e;
+    color: #ffffff;
+    border: 0px;
+    padding: 10px 10px;
+    font-size: 10px;
+    text-align: center;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    min-width: 70px;
+    min-height: 20px;
+}
+
+.userSelection button:hover {
+    background-color: var(--hover-color);
+}
+
+.userSelection button.selected {
+    background-color: var(--hover-color);
+    color: #ffffff;
+}
+
+.loginform {
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.loginform input[type="text"],
+.loginform input[type="password"]{
+    width: 70%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+
+.loginform input[type="text"]::placeholder,
+.loginform input[type="password"]::placeholder {
+    font-size: 12px; 
+}
+
+.loginform input[type="text"]:focus::placeholder,
+.loginform input[type="password"]:focus::placeholder {
+    transform: translateY(-15px); 
+    transition: transform 0.3s ease; 
+}
+
+.loginButton {
+    margin: 0.5rem;
+    background-color: #5e4e4e;
+    color: #ffffff;
+    border: 0px;
+    padding: 10px 10px;
+    font-size: 12px;
+    text-align: center;
+    transition: background-color 0.3s ease;
+    min-width: 80px;
+    min-height: 20px;
+    border-radius: 5px;
+}
+
+.loginButton:hover {
+    background-color: var(--hover-color);
+}
+
+.labelText {
+    font-size: 11px;
+}
+
+.labelText a {
+    text-decoration: none;
+    color: #000;
+    transition: color 0.3s ease;
+}
+
+.labelText a:hover {
+    color: var(--hover-color);
+}
+
+/*--------------------------SIGN UP-------------------------------*/
+.locationDropdown {
+    width: 70%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    font-size: 11px;
+    color: #333;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+}
+
+.locationDropdown::after {
+    content: '\25BC';
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+}
+
+.locationDropdown option {
+    background-color: #fff;
+    color: #333;
+}
+
+.locationDropdown option:checked {
+    background-color: #e0e0e0;
+    color: #000;
+}
+
+.numberSelector {
+    width: 70%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    font-size: 11px;
+    color: #333;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+}
