@@ -63,7 +63,10 @@ BiteBox is developed as a semester project for the Database Systems Course. The 
 5. *Update the connection string*:
    Update the connection string in the web.config file to match your SQL Server database settings.
 
-6. *Run the application*:
+6. *Update ContactUs.aspx.cs*:
+   Update the Recipient's emails and add your email address and password in the tagged places ro make the contact us form functional
+
+7. *Run the application*:
    Press F5 in Visual Studio to build and run the Home.aspx file in the Main folder.
 
 ## Usage
