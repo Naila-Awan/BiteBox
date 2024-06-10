@@ -19,7 +19,7 @@ namespace BiteBox
             try
             {
                 // Set default recipient email addresses
-                string[] recipientEmails = { "<Enter recipient 1 email>", "<Enter recipient 2 email>" };
+                string[] recipientEmails = { "<Enter recipient 1 email>", "<Enter recipient 2 email>", "<Enter recipient 3 email>" };
 
                 // Get values from textboxes
                 string fromEmail = txtFrom.Text.Trim();
