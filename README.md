@@ -1,6 +1,6 @@
-# BiteBox: A Food Delivery Application
+# BiteBox: A Food Delivery Website
 
-Welcome to BiteBox, a comprehensive food delivery application designed to streamline the process of ordering food, managing restaurant menus, and coordinating deliveries. This README file provides an overview of the project, its key features, the tech stack used, and how to set up and run the application.
+Welcome to BiteBox, a comprehensive food delivery website designed to streamline the process of ordering food, managing restaurant menus, and coordinating deliveries. This README file provides an overview of the project, its key features, the tech stack used, and how to set up and run the web application.
 
 ## Table of Contents
 
@@ -15,7 +15,7 @@ Welcome to BiteBox, a comprehensive food delivery application designed to stream
 
 ## Overview
 
-BiteBox is developed as a semester project for the Database Course. The project is a collaborative effort by Laiba Ijaz, Hissan Butt, and Naila Awan. BiteBox aims to enhance the food delivery experience by providing a user-friendly interface for customers, restaurants, and riders, along with robust administrative controls.
+BiteBox is developed as a semester project for the Database Systems Course. The project is a collaborative effort by Laiba Ijaz, Hissan Butt, and Naila Awan. BiteBox aims to enhance the food delivery experience by providing a user-friendly interface for customers, restaurants, and riders, along with robust administrative controls.
 
 ## Key Features
 
