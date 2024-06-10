@@ -19,7 +19,7 @@ namespace BiteBox
             try
             {
                 // Set default recipient email addresses
-                string[] recipientEmails = { "l227859@lhr.nu.edu.pk", "l227855@lhr.nu.edu.pk", "l227950@lhr.nu.edu.pk" };
+                string[] recipientEmails = { "<Enter recipient 1 email>", "<Enter recipient 2 email>" };
 
                 // Get values from textboxes
                 string fromEmail = txtFrom.Text.Trim();
@@ -40,7 +40,7 @@ namespace BiteBox
                     {
                         smtpClient.EnableSsl = true; // Enable SSL/TLS encryption
                         smtpClient.UseDefaultCredentials = false; // Do not use default credentials
-                        smtpClient.Credentials = new System.Net.NetworkCredential("l227855@lhr.nu.edu.pk", "pwd");
+                        smtpClient.Credentials = new System.Net.NetworkCredential("<Enter Your Email>", "<Enter Your Password>");
                         smtpClient.Send(mailMessage);
                     }
                 }
